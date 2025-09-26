@@ -1,0 +1,21 @@
+"$schema" = "https://jj-vcs.github.io/jj/latest/config-schema.json"
+
+[user]
+name = "Izaw"
+email = "IzawGithub@pm.me"
+
+[ui]
+# editor = "codium -w"
+# editor = "zeditor -w"
+editor = "kibi"
+merge-editor = "vscodium"
+pager = "delta"
+diff-formatter = "delta"
+
+[merge-tools.delta]
+diff-expected-exit-codes = [0, 1]
+
+[signing]
+behavior = "own"
+backend = "gpg"
+key = "IzawGithub@pm.me"
