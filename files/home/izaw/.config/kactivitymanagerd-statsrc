@@ -1,0 +1,5 @@
+[Favorites-org.kde.plasma.kickoff.favorites.instance-3-04366b06-aa9e-4985-8ecd-25efe2b54249]
+ordering=applications:org.kde.dolphin.desktop,applications:discord.desktop,applications:org.kde.elisa.desktop,applications:freetube.desktop,preferred://browser,applications:proton-mail.desktop,applications:steam.desktop,applications:codium-wayland.desktop
+
+[Favorites-org.kde.plasma.kickoff.favorites.instance-3-global]
+ordering=applications:org.kde.dolphin.desktop,applications:discord.desktop,applications:org.kde.elisa.desktop,applications:freetube.desktop,preferred://browser,applications:proton-mail.desktop,applications:steam.desktop,applications:codium-wayland.desktop
