@@ -1,0 +1,15 @@
+[cursor]
+style = "Beam"
+
+[window]
+decorations = "None"
+
+[font.normal]
+family = "JetBrainsMono Nerd Font"
+
+[general]
+
+import = [
+    "~/.config/alacritty/themes/catppuccin_mocha.toml",
+    "~/.config/alacritty/keybindings.toml",
+]
