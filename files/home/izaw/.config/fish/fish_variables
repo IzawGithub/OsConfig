@@ -1,6 +1,5 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
-SETUVAR --export CARGO_HOME:/home/izaw/\x2elocal/share/cargo
 SETUVAR --export EXA_LAAD_OPTIONS:\x2d\x2dall\x1e\x2d\x2dall\x1e\x2d\x2dbinary\x1e\x2d\x2donly\x2ddirs
 SETUVAR --export EXA_LAAID_OPTIONS:\x2d\x2dall\x1e\x2d\x2dall\x1e\x2d\x2dbinary\x1e\x2d\x2dicons\x1e\x2d\x2donly\x2ddirs
 SETUVAR --export EXA_LAAI_OPTIONS:\x2d\x2dall\x1e\x2d\x2dall\x1e\x2d\x2dbinary\x1e\x2d\x2dicons
@@ -21,26 +20,9 @@ SETUVAR --export EXA_LT_OPTIONS:\x2d\x2dtree\x1e\x2d\x2dlevel
 SETUVAR --export EXA_L_OPTIONS:\x1d
 SETUVAR --export EXA_STANDARD_OPTIONS:\x2d\x2dgroup\x1e\x2d\x2dheader\x1e\x2d\x2dgroup\x2ddirectories\x2dfirst
 SETUVAR --export FZF_DEFAULT_OPTS:\x2d\x2dcolor\x3dbg\x2b\x3a\x23313244\x2cbg\x3a\x231E1E2E\x2cspinner\x3a\x23F5E0DC\x2chl\x3a\x23F38BA8\x20\x2d\x2dcolor\x3dfg\x3a\x23CDD6F4\x2cheader\x3a\x23F38BA8\x2cinfo\x3a\x23CBA6F7\x2cpointer\x3a\x23F5E0DC\x20\x2d\x2dcolor\x3dmarker\x3a\x23B4BEFE\x2cfg\x2b\x3a\x23CDD6F4\x2cprompt\x3a\x23CBA6F7\x2chl\x2b\x3a\x23F38BA8\x20\x2d\x2dcolor\x3dselected\x2dbg\x3a\x2345475A\x20\x2d\x2dcolor\x3dborder\x3a\x236C7086\x2clabel\x3a\x23CDD6F4
-SETUVAR --export GNUPGHOME:/home/izaw/\x2elocal/share/gnupg
-SETUVAR --export GTK2_RC_FILES:/home/izaw/\x2econfig/gtk\x2d2\x2eO/gtkrc\x3a/home/izaw/\x2econfig/gtk\x2d2\x2e0/gtkrc\x2emine
-SETUVAR --export HISTFILE:/home/izaw/\x2elocal/state/bash/history
-SETUVAR --export JAVA_OPTIONS:\x2dDjava\x2eutils\x2eprefs\x2euserRoot\x3d/home/izaw/\x2econfig/java
-SETUVAR --export MANPAGER:sh\x20\x2dc\x20\x27awk\x20\x27\x5c\x27\x27\x7b\x20gsub\x28/\x5cx1B\x5c\x5b\x5b0\x2d9\x3b\x5d\x2am/\x2c\x20\x22\x22\x2c\x20\x240\x29\x3b\x20gsub\x28/\x2e\x5cx08/\x2c\x20\x22\x22\x2c\x20\x240\x29\x3b\x20print\x20\x7d\x27\x5c\x27\x27\x20\x7c\x20bat\x20\x2dp\x20\x2dlman\x27
-SETUVAR --export MAVEN_ARGS:\x2d\x2dsettings\x20/home/izaw/\x2econfig/maven/settings\x2exml
-SETUVAR --export MAVEN_OPTS:\x2dDmaven\x2erepo\x2elocal\x3d/home/izaw/\x2elocal/share/maven/repository
-SETUVAR --export NPM_CONFIG_USERCONFIG:/home/izaw/\x2econfig/npm/npmrc
-SETUVAR --export PYTHONPYCACHEPREFIX:/home/izaw/\x2ecache/python
-SETUVAR --export PYTHONUSERBASE:/home/izaw/\x2elocal/share/python
-SETUVAR --export PYTHON_HISTORY:/home/izaw/\x2elocal/state/python_history
-SETUVAR --export RUSTUP_HOME:/home/izaw/\x2elocal/share/rustup
 SETUVAR VIRTUAL_ENV_DISABLE_PROMPT:true
-SETUVAR --export WGETRC:/home/izaw/\x2econfig/wgetrc
-SETUVAR XDG_CACHE_HOME:/home/izaw/\x2ecache
 SETUVAR XDG_CONFIG_DIRS:/etc/xdg
-SETUVAR --export XDG_CONFIG_HOME:/home/izaw/\x2econfig
 SETUVAR XDG_DATA_DIRS:/usr/local/share\x3a/usr/share
-SETUVAR --export XDG_DATA_HOME:/home/izaw/\x2elocal/share
-SETUVAR --export XDG_STATE_HOME:/home/izaw/\x2elocal/state
 SETUVAR --export __FISH_EXA_ALIASES:l\x1ela\x1eld\x1eli\x1elid\x1elaa\x1elad\x1elai\x1elaid\x1elaad\x1elaai\x1elaaid\x1ell\x1ella\x1elld\x1elli\x1ellid\x1ellaa\x1ellad\x1ellai\x1ellaid\x1ellaad\x1ellaai\x1ellaaid\x1elg\x1elga\x1elgd\x1elgi\x1elgid\x1elgaa\x1elgad\x1elgai\x1elgaid\x1elgaad\x1elgaai\x1elgaaid\x1ele\x1elea\x1eled\x1elei\x1eleid\x1eleaa\x1elead\x1eleai\x1eleaid\x1eleaad\x1eleaai\x1eleaaid\x1elt\x1elta\x1eltd\x1elti\x1eltid\x1eltad\x1eltai\x1eltaid\x1eltaad\x1eltaai\x1eltaaid\x1elc\x1elca\x1elcd\x1elci\x1elcid\x1elcaa\x1elcad\x1elcai\x1elcaid\x1elcaad\x1elcaai\x1elcaaid\x1elo\x1eloa\x1elod\x1eloi\x1eloid\x1eloaa\x1eload\x1eloai\x1eloaid\x1eloaad\x1eloaai\x1eloaaid
 SETUVAR --export __FISH_EXA_BASE_ALIASES:l\x1ell\x1elg\x1ele\x1elt\x1elc\x1elo
 SETUVAR --export __FISH_EXA_BINARY:eza
