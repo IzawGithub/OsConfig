@@ -11,7 +11,6 @@ Make sure to add :
 
 ## TODO
 
-- [ ] Fish global env var in it's own file instead of manual set
 - [ ] Don't install `mesa` and `vulkan-radeon` if someone got an Nvidia or Intel GPU
 
 - [ ] Chromium config
