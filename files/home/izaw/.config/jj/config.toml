@@ -10,7 +10,7 @@ email = "IzawGithub@pm.me"
 editor = "kibi"
 merge-editor = "vscodium"
 pager = "delta"
-diff-formatter = "delta"
+diff-formatter = ["delta", "--width", "$width", "$left", "$right"]
 
 [merge-tools.delta]
 diff-expected-exit-codes = [0, 1]
