@@ -24,7 +24,6 @@ Make sure to add :
 
 - [ ] Bat theme must be `bat cache --build` before it work
 - [ ] Catppucin KDE isn't backed up
-- [ ] Applications start menu aren't backed up
 - [ ] VSCodium extensions are installed but not working
 
 ### Nice to have

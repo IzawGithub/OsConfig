@@ -41,6 +41,7 @@ configs=(
 
     ".config/kglobalshortcutsrc"
     ".config/kactivitymanagerdrc"
+    ".local/share/kactivitymanagerd/*"
     ".config/kactivitymanagerd-switcher"
     ".config/kactivitymanagerd-statsrc"
     ".config/kactivitymanagerd-pluginsrc"
