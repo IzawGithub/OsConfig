@@ -62,6 +62,15 @@ CopyFile /home/izaw/.config/gtkrc '' izaw izaw
 CopyFile /home/izaw/.config/gtkrc-2.0 '' izaw izaw
 CopyFile /home/izaw/.config/kactivitymanagerd-statsrc 600 izaw izaw
 CopyFile /home/izaw/.config/kactivitymanagerdrc 600 izaw izaw
+CopyFile /home/izaw/.local/share/kactivitymanagerd/resources/database '' izaw izaw
+CopyFile /home/izaw/.local/share/kactivitymanagerd/resources/database-shm '' izaw izaw
+CopyFile /home/izaw/.local/share/kactivitymanagerd/resources/database-wal '' izaw izaw
+CopyFile /home/izaw/.local/share/kactivitymanagerd/resources/test-backup/database '' izaw izaw
+CopyFile /home/izaw/.local/share/kactivitymanagerd/resources/test-backup/database-shm '' izaw izaw
+CopyFile /home/izaw/.local/share/kactivitymanagerd/resources/test-backup/database-wal '' izaw izaw
+CopyFile /home/izaw/.local/share/kactivitymanagerd/resources/working-backup/database '' izaw izaw
+CopyFile /home/izaw/.local/share/kactivitymanagerd/resources/working-backup/database-shm '' izaw izaw
+CopyFile /home/izaw/.local/share/kactivitymanagerd/resources/working-backup/database-wal '' izaw izaw
 CopyFile /home/izaw/.config/kded5rc 600 izaw izaw
 CopyFile /home/izaw/.config/kded6rc 600 izaw izaw
 CopyFile /home/izaw/.config/kdeglobals 600 izaw izaw
