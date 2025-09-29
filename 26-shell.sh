@@ -9,7 +9,6 @@ CopyFile /home/izaw/.config/fish/conf.d/autopair.fish '' izaw izaw
 CopyFile /home/izaw/.config/fish/conf.d/fish-exa.fish '' izaw izaw
 CopyFile /home/izaw/.config/fish/conf.d/fzf.fish '' izaw izaw
 CopyFile /home/izaw/.config/fish/conf.d/puffer_fish_key_bindings.fish '' izaw izaw
-CopyFile /home/izaw/.config/fish/conf.d/rustup.fish '' izaw izaw
 CopyFile /home/izaw/.config/fish/conf.d/sponge.fish '' izaw izaw
 CopyFile /home/izaw/.config/fish/config.fish '' izaw izaw
 CopyFile /home/izaw/.config/fish/fish_plugins '' izaw izaw
