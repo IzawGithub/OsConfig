@@ -5,11 +5,15 @@
     diffFilter = delta --color-only
 
 [delta]
+    features = "non-preview"
     hyperlinks = true
     line-numbers = true
     navigate = true
-#     side-by-side = true
-    syntax-theme = Catppuccin Mocha
+    syntax-theme = "Catppuccin Mocha"
+[delta "preview"]
+    side-by-side = false
+[delta "non-preview"]
+    side-by-side = true
 
 [merge]
     conflictstyle = zdiff3

@@ -8,11 +8,16 @@ email = "IzawGithub@pm.me"
 # editor = "codium -w"
 # editor = "zeditor -w"
 editor = "kibi"
+diff-formatter = ["delta", "--width", "$width", "$left", "$right"]
 merge-editor = "vscodium"
 pager = "delta"
-diff-formatter = "delta"
 
 [merge-tools.delta]
+diff-expected-exit-codes = [0, 1]
+
+[merge-tools.delta-preview]
+program = "delta"
+diff-args = ["--width", "$width", "--features", "preview", "$left", "$right"]
 diff-expected-exit-codes = [0, 1]
 
 [signing]

@@ -1,2 +1,5 @@
 [ui]
 theme = "base24-catppuccin-mocha"
+
+[preview]
+revision_command = ["show", "--color", "always", "-r", "$change_id", "--config", "ui.diff-formatter=delta-preview"]
