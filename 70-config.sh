@@ -75,13 +75,6 @@ configs=(
     ".config/VSCodium/User/keybindings.json"
     ".local/share/codium/extensions/extensions.json"
     ".config/zed/*"
-
-    #61-browser.sh
-    ".librewolf/installs.ini"
-    ".librewolf/profiels.ini"
-    ".librewolf/x1hlwolm.default-default/addons.json"
-    ".librewolf/x1hlwolm.default-default/extension-preferences.json"
-    ".librewolf/x1hlwolm.default-default/extensions.json"
 )
 
 IgnorePathsExcept ~ "${configs[@]}"

@@ -23,7 +23,7 @@ Make sure to add :
 ### Bugs
 
 - [ ] Bat theme must be `bat cache --build` before it work
-- [ ] Catppucin KDE isn't backed up
+- [ ] Catppucin KDE isn't backed up properly
 - [ ] VSCodium extensions are installed but not working
 
 ### Nice to have
@@ -34,6 +34,7 @@ Make sure to add :
 
 - [ ] Chromium config
 - [ ] Freetube config
+- [ ] Librewolf extensions config
 
 ## License
 

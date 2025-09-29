@@ -1,0 +1,93 @@
+{
+    "__COMMENT__ More Information": "https://github.com/mozilla/policy-templates/blob/master/README.md",
+    "policies": {
+        "AppUpdateURL": "https://localhost",
+        "DisableAppUpdate": true,
+        "OverrideFirstRunPage": "",
+        "OverridePostUpdatePage": "",
+        "DisableSystemAddonUpdate": true,
+        "DisableProfileImport": false,
+        "DisableFirefoxStudies": true,
+        "DisableTelemetry": true,
+        "DisableFeedbackCommands": true,
+        "DisablePocket": true,
+        "DisableSetDesktopBackground": false,
+        "DisableDeveloperTools": false,
+        "HardwareAcceleration": true,
+        "NoDefaultBookmarks": true,
+        "WebsiteFilter": {
+            "Block": [
+                "https://localhost/*"
+            ],
+            "Exceptions": [
+                "https://localhost/*"
+            ]
+        },
+        "Extensions": {
+            "Install": [
+                "https://addons.mozilla.org/firefox/downloads/latest/ublock-origin/latest.xpi",
+                "https://addons.mozilla.org/firefox/downloads/latest/darkreader/latest.xpi",
+                "https://addons.mozilla.org/firefox/downloads/latest/firefox-color/latest.xpi",
+                "https://addons.mozilla.org/firefox/downloads/latest/proton-pass/latest.xpi",
+                "https://addons.mozilla.org/firefox/downloads/latest/plasma-integration/latest.xpi"
+            ],
+            "Uninstall": [
+                "google@search.mozilla.org",
+                "bing@search.mozilla.org",
+                "amazondotcom@search.mozilla.org",
+                "ebay@search.mozilla.org",
+                "twitter@search.mozilla.org"
+            ]
+        },
+        "ExtensionsSettings": {
+        },
+        "SearchEngines": {
+            "PreventInstalls": false,
+            "Remove": [
+                "Google",
+                "Bing",
+                "Amazon.com",
+                "eBay",
+                "Twitter"
+            ],
+            "Default": "DuckDuckGo",
+            "Add": [
+                {
+                    "Name": "Arch Linux AUR",
+                    "Description": "Searches for packages in the Arch User Repository",
+                    "Alias": "@aur",
+                    "Method": "GET",
+                    "URLTemplate": "https://aur.archlinux.org/packages/?K={searchTerms}",
+                    "IconURL": "data:image/x-icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAADRkxd40ZMXOQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANGTFznRkxdx0ZMXMtGTF/7Rkxe00ZMXNwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0ZMXOdGTF7TRkxf40ZMXJAAAAADRkxen0ZMX/9GTF//Rkxff0ZMXjdGTFxwAAAAAAAAAANGTFxXRkxeO0ZMX4dGTF//Rkxf10ZMXWQAAAAAAAAAA0ZMXI9GTF/rRkxf/0ZMX/9GTF//RkxdCAAAAAAAAAADRkxcx0ZMX/9GTF//Rkxfb0ZMXOAAAAAAAAAAAAAAAAAAAAADRkxeU0ZMX/9GTF//Rkxf/0ZMXZgAAAAAAAAAA0ZMXXNGTF//Rkxf+0ZMX1NGTF40AAAAAAAAAAAAAAAAAAAAA0ZMXFtGTF/PRkxf/0ZMX/9GTF7MAAAAAAAAAANGTF6PRkxf/0ZMX/9GTF/XRkxcYAAAAAAAAAAAAAAAAAAAAAAAAAADTmCGD0pUc/9GTF//Rkxf/0ZMXsNGTF6jRkxf/0ZMX/9GTF//RlBiKAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA1ZspDtytTu7Yozr/0pYd/9GTF//Rkxf/0ZMX/9GTF//Slh7y1Z0sFgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADaqER73K1O/9urSv/ZpT7/16I2/9ehNf/YpDv/26pHkgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA1p8yBtqoROPap0P/2aY/7dmlPf7YpDr/2qdD8tytUBUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADYozlQ16I3Z9eiNrzXoTX/1qAy/9urS4wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANafMJzWni//1Z0s/9ejOO7huWcRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADUmyd61Jom/9OZI//Zp0GTAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0pUcE9KWHffUmSP726tKIgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADRkxeg1JklqgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0ZMXNdOYIjkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//8AAJ/5AACDwwAAw8cAAMPDAADhhwAA4AcAAPAPAAD4DwAA+B8AAP4fAAD8PwAA/j8AAP5/AAD+fwAA//8AAA=="
+                },
+                {
+                    "Name": "Arch Linux Packages",
+                    "Description": "Searches for packages in the Arch Linux database",
+                    "Alias": "@arch",
+                    "Method": "GET",
+                    "URLTemplate": "https://www.archlinux.org/packages/?q={searchTerms}",
+                    "IconURL": "data:image/x-icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAADRkxd40ZMXOQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANGTFznRkxdx0ZMXMtGTF/7Rkxe00ZMXNwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0ZMXOdGTF7TRkxf40ZMXJAAAAADRkxen0ZMX/9GTF//Rkxff0ZMXjdGTFxwAAAAAAAAAANGTFxXRkxeO0ZMX4dGTF//Rkxf10ZMXWQAAAAAAAAAA0ZMXI9GTF/rRkxf/0ZMX/9GTF//RkxdCAAAAAAAAAADRkxcx0ZMX/9GTF//Rkxfb0ZMXOAAAAAAAAAAAAAAAAAAAAADRkxeU0ZMX/9GTF//Rkxf/0ZMXZgAAAAAAAAAA0ZMXXNGTF//Rkxf+0ZMX1NGTF40AAAAAAAAAAAAAAAAAAAAA0ZMXFtGTF/PRkxf/0ZMX/9GTF7MAAAAAAAAAANGTF6PRkxf/0ZMX/9GTF/XRkxcYAAAAAAAAAAAAAAAAAAAAAAAAAADTmCGD0pUc/9GTF//Rkxf/0ZMXsNGTF6jRkxf/0ZMX/9GTF//RlBiKAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA1ZspDtytTu7Yozr/0pYd/9GTF//Rkxf/0ZMX/9GTF//Slh7y1Z0sFgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADaqER73K1O/9urSv/ZpT7/16I2/9ehNf/YpDv/26pHkgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA1p8yBtqoROPap0P/2aY/7dmlPf7YpDr/2qdD8tytUBUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADYozlQ16I3Z9eiNrzXoTX/1qAy/9urS4wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANafMJzWni//1Z0s/9ejOO7huWcRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADUmyd61Jom/9OZI//Zp0GTAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0pUcE9KWHffUmSP726tKIgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADRkxeg1JklqgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0ZMXNdOYIjkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//8AAJ/5AACDwwAAw8cAAMPDAADhhwAA4AcAAPAPAAD4DwAA+B8AAP4fAAD8PwAA/j8AAP5/AAD+fwAA//8AAA=="
+                },
+                {
+                    "Name": "Arch Linux Wiki",
+                    "Description": "Searches the Arch Linux wiki",
+                    "Alias": "@archwiki,@awiki",
+                    "Method": "GET",
+                    "URLTemplate": "https://wiki.archlinux.org/index.php/Special:Search?go=Go&search={searchTerms}",
+                    "IconURL": "data:image/x-icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAADRkxd40ZMXOQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANGTFznRkxdx0ZMXMtGTF/7Rkxe00ZMXNwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0ZMXOdGTF7TRkxf40ZMXJAAAAADRkxen0ZMX/9GTF//Rkxff0ZMXjdGTFxwAAAAAAAAAANGTFxXRkxeO0ZMX4dGTF//Rkxf10ZMXWQAAAAAAAAAA0ZMXI9GTF/rRkxf/0ZMX/9GTF//RkxdCAAAAAAAAAADRkxcx0ZMX/9GTF//Rkxfb0ZMXOAAAAAAAAAAAAAAAAAAAAADRkxeU0ZMX/9GTF//Rkxf/0ZMXZgAAAAAAAAAA0ZMXXNGTF//Rkxf+0ZMX1NGTF40AAAAAAAAAAAAAAAAAAAAA0ZMXFtGTF/PRkxf/0ZMX/9GTF7MAAAAAAAAAANGTF6PRkxf/0ZMX/9GTF/XRkxcYAAAAAAAAAAAAAAAAAAAAAAAAAADTmCGD0pUc/9GTF//Rkxf/0ZMXsNGTF6jRkxf/0ZMX/9GTF//RlBiKAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA1ZspDtytTu7Yozr/0pYd/9GTF//Rkxf/0ZMX/9GTF//Slh7y1Z0sFgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADaqER73K1O/9urSv/ZpT7/16I2/9ehNf/YpDv/26pHkgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA1p8yBtqoROPap0P/2aY/7dmlPf7YpDr/2qdD8tytUBUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADYozlQ16I3Z9eiNrzXoTX/1qAy/9urS4wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANafMJzWni//1Z0s/9ejOO7huWcRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADUmyd61Jom/9OZI//Zp0GTAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0pUcE9KWHffUmSP726tKIgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADRkxeg1JklqgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0ZMXNdOYIjkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//8AAJ/5AACDwwAAw8cAAMPDAADhhwAA4AcAAPAPAAD4DwAA+B8AAP4fAAD8PwAA/j8AAP5/AAD+fwAA//8AAA=="
+                },
+                {
+                    "Name": "Google",
+                    "Description": "Google encrypted search, safe off, English",
+                    "Alias": "@google,@g",
+                    "Method": "GET",
+                    "URLTemplate": "https://encrypted.google.com/search?hl=en&safe=off&pws=0&q={searchTerms}"
+                }
+            ]
+        },
+        "SupportMenu": {
+            "Title": "LibreWolf Issue Tracker",
+            "URL": "https://codeberg.org/librewolf/issues"
+        }
+    }
+}
