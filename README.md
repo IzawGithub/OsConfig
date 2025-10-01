@@ -36,5 +36,9 @@ Make sure to add :
 - [ ] Chromium config
 - [ ] Freetube config
 
+## License
+
+[Apache2](LICENSE-APACHE) or [MIT](LICENSE-MIT), at your option.
+
 [archinstall]: https://github.com/archlinux/archinstall
 [aconfmgr]: https://github.com/CyberShadow/aconfmgr
