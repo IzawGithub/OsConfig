@@ -69,6 +69,11 @@ configs=(
     ".config/systemmonitorrc"
     ".config/systemsettingsrc"
 
+    ".local/share/color-schemes/*"
+    ".local/share/aurorae/themes/*"
+    ".local/share/kpackage/*"
+    ".local/share/icons/*"
+
     # 60-app-gui.sh
     ".config/alacritty/*"
     ".config/VSCodium/User/settings.json"
