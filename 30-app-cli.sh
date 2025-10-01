@@ -15,6 +15,7 @@ AddPackage ripgrep # A search tool that combines the usability of ag with the ra
 AddPackage sudo-rs # A memory-safe implementation of sudo and su
 AddPackage tealdeer # A fast tldr client in Rust
 AddPackage uutils-coreutils # Cross-platform Rust rewrite of the GNU coreutils
+AddPackage xorg-xlsclients # List client applications running on a display
 AddPackage wget # Network utility to retrieve files from the web
 AddPackage zellij # A terminal multiplexer
 
