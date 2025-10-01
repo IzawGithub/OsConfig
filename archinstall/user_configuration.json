@@ -152,6 +152,7 @@
         "virt-manager",
         "vulkan-radeon",
         "wget",
+        "xorg-xlsclients",
         "zed",
         "zellij"
     ],
