@@ -25,6 +25,7 @@ Make sure to add :
 - [ ] Bat theme must be `bat cache --build` before it work
 - [ ] Catppucin KDE isn't backed up properly
 - [ ] VSCodium extensions are installed but not working
+- [ ] Don't uninstall CPU microcode on other machine
 
 ### Nice to have
 
