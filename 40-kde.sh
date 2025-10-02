@@ -83,3 +83,11 @@ SetFileProperty /home/izaw/.config/gtk-3.0 group izaw
 SetFileProperty /home/izaw/.config/gtk-3.0 owner izaw
 SetFileProperty /home/izaw/.config/gtk-4.0 group izaw
 SetFileProperty /home/izaw/.config/gtk-4.0 owner izaw
+SetFileProperty /home/izaw/.local/share/kactivitymanagerd/resources/test-backup group izaw
+SetFileProperty /home/izaw/.local/share/kactivitymanagerd/resources/test-backup owner izaw
+SetFileProperty /home/izaw/.local/share/kactivitymanagerd/resources/working-backup group izaw
+SetFileProperty /home/izaw/.local/share/kactivitymanagerd/resources/working-backup owner izaw
+SetFileProperty /home/izaw/.local/share/kactivitymanagerd/resources group izaw
+SetFileProperty /home/izaw/.local/share/kactivitymanagerd/resources owner izaw
+SetFileProperty /home/izaw/.local/share/kactivitymanagerd group izaw
+SetFileProperty /home/izaw/.local/share/kactivitymanagerd owner izaw
