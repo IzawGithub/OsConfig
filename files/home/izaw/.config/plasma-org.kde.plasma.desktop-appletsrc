@@ -6,7 +6,8 @@ RightButton;NoModifier=org.kde.contextmenu
 
 [Containments][1]
 ItemGeometries-1280x800=Applet-41:880,16,384,272,0;Applet-40:880,288,192,240,0;Applet-38:1072,288,192,240,0;
-ItemGeometriesHorizontal=Applet-41:880,16,384,272,0;Applet-40:880,288,192,240,0;Applet-38:1072,288,192,240,0;
+ItemGeometries-2560x1440=Applet-41:2048,16,496,384,0;Applet-40:2048,400,256,288,0;Applet-38:2304,400,240,288,0;
+ItemGeometriesHorizontal=Applet-41:2048,16,496,384,0;Applet-40:2048,400,256,288,0;Applet-38:2304,400,240,288,0;
 activityId=04366b06-aa9e-4985-8ecd-25efe2b54249
 formfactor=0
 immutability=1
@@ -107,7 +108,7 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][1][General]
-positions={"1280x800":[]}
+positions={"1280x800":[],"2560x1440":[]}
 
 [Containments][2]
 activityId=
@@ -123,7 +124,8 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][2][Applets][21][Configuration]
-popupHeight=400
+PreloadWeight=100
+popupHeight=450
 popupWidth=560
 
 [Containments][2][Applets][21][Configuration][Appearance]
@@ -140,7 +142,7 @@ immutability=1
 plugin=org.kde.plasma.taskmanager
 
 [Containments][2][Applets][26][Configuration][General]
-launchers=preferred://filemanager
+launchers=preferred://filemanager,applications:librewolf.desktop
 
 [Containments][2][Applets][27]
 immutability=1
@@ -195,6 +197,9 @@ plugin=org.kde.plasma.manage-inputmethod
 immutability=1
 plugin=org.kde.plasma.notifications
 
+[Containments][2][Applets][7][Applets][13][Configuration]
+PreloadWeight=95
+
 [Containments][2][Applets][7][Applets][14]
 immutability=1
 plugin=org.kde.plasma.keyboardlayout
@@ -224,9 +229,10 @@ immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][2][Applets][7][Applets][20][Configuration]
-PreloadWeight=55
+PreloadWeight=100
 
 [Containments][2][Applets][7][Applets][20][Configuration][General]
+currentTab=streams
 migrated=true
 
 [Containments][2][Applets][7][Applets][23]
@@ -238,21 +244,21 @@ immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][2][Applets][7][Applets][24][Configuration]
-PreloadWeight=10
+PreloadWeight=0
 
 [Containments][2][Applets][7][Applets][25]
 immutability=1
 plugin=org.kde.plasma.brightness
 
 [Containments][2][Applets][7][Applets][25][Configuration]
-PreloadWeight=10
+PreloadWeight=0
 
 [Containments][2][Applets][7][Applets][42]
 immutability=1
 plugin=org.kde.plasma.mediacontroller
 
 [Containments][2][Applets][7][Applets][42][Configuration]
-PreloadWeight=42
+PreloadWeight=0
 
 [Containments][2][Applets][7][Applets][8]
 immutability=1
@@ -273,6 +279,18 @@ shownItems=org.kde.plasma.clipboard
 
 [Containments][2][General]
 AppletOrder=3;26;6;7;21;27
+
+[Containments][42]
+activityId=04366b06-aa9e-4985-8ecd-25efe2b54249
+formfactor=0
+immutability=1
+lastScreen=1
+location=0
+plugin=org.kde.plasma.folder
+wallpaperplugin=org.kde.image
+
+[Containments][42][General]
+positions={"2560x1440":[]}
 
 [ScreenMapping]
 itemsOnDisabledScreens=

@@ -1,4 +1,6 @@
 [General]
+DoubleClickViewAction=none
+ShowStatusBar=FullWidth
 Version=202
 ViewPropsTimestamp=2025,9,22,0,12,47.043
 
@@ -11,3 +13,6 @@ Places Icons Static Size=22
 
 [MainWindow]
 MenuBar=Disabled
+
+[PreviewSettings]
+Plugins=appimagethumbnail,audiothumbnail,avif,glycin-heif,blenderthumbnail,comicbookthumbnail,cursorthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,directorythumbnail,fontthumbnail,heif,imagethumbnail,glycin-image-rs,jpegthumbnail,glycin-jxl,jxl,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,mltpreview,opendocumentthumbnail,gsthumbnail,glycin-svg,librsvg,svgthumbnail

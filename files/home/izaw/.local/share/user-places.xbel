@@ -51,18 +51,6 @@
    </metadata>
   </info>
  </bookmark>
- <bookmark href="file:///home/izaw/Downloads">
-  <title>Downloads</title>
-  <info>
-   <metadata owner="http://freedesktop.org">
-    <bookmark:icon name="folder-downloads"/>
-   </metadata>
-   <metadata owner="http://www.kde.org">
-    <ID>1758492143/3</ID>
-    <isSystemItem>true</isSystemItem>
-   </metadata>
-  </info>
- </bookmark>
  <bookmark href="file:///home/izaw/Music">
   <title>Music</title>
   <info>
@@ -95,6 +83,18 @@
    </metadata>
    <metadata owner="http://www.kde.org">
     <ID>1758492143/8</ID>
+    <isSystemItem>true</isSystemItem>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="file:///home/izaw/Downloads">
+  <title>Downloads</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="folder-downloads"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1758492143/3</ID>
     <isSystemItem>true</isSystemItem>
    </metadata>
   </info>
@@ -144,6 +144,26 @@
    <metadata owner="http://www.kde.org">
     <ID>1758492143/10</ID>
     <isSystemItem>true</isSystemItem>
+   </metadata>
+  </info>
+ </bookmark>
+ <separator>
+  <info>
+   <metadata owner="http://www.kde.org">
+    <UDI>/org/freedesktop/UDisks2/block_devices/sda2</UDI>
+    <isSystemItem>true</isSystemItem>
+    <uuid>9fd4a24c-4e28-4778-9af7-02bbeaccde88</uuid>
+   </metadata>
+  </info>
+ </separator>
+ <bookmark href="kdeconnect://9a534a73cb014077b01d12c4b33969da/">
+  <title>SAINT-PHONE</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="kdeconnect"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1760947275/0</ID>
    </metadata>
   </info>
  </bookmark>

@@ -118,6 +118,11 @@ ForegroundNormal=205, 214, 244
 ForegroundPositive=166, 227, 161
 ForegroundVisited=203, 166, 247
 
+[DirSelect Dialog]
+DirSelectDialog Size=820,584
+History Items[$e]=file:$HOME/Downloads,file:$HOME/Documents/Games/Steam
+Splitter State=\x00\x00\x00\xff\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x00\x8c\x00\x00\x02\xa8\x00\xff\xff\xff\xff\x01\x00\x00\x00\x01\x00
+
 [General]
 ColorSchemeHash=3aedebd67dad5d75f286cba89d070ff78604c3ce
 TerminalApplication=alacritty
@@ -135,8 +140,6 @@ Allow Expansion=false
 Automatically select filename extension=true
 Breadcrumb Navigation=true
 Decoration position=2
-LocationCombo Completionmode=5
-PathCombo Completionmode=5
 Show Full Path=false
 Show Inline Previews=true
 Show Preview=false
@@ -151,6 +154,10 @@ View Style=DetailTree
 
 [KShortcutsDialog Settings]
 Dialog Size=600,480
+
+[PreviewSettings]
+EnableRemoteFolderThumbnail=false
+MaximumRemoteSize=0
 
 [WM]
 activeBackground=30,30,46

@@ -7,3 +7,6 @@ x-scheme-handler/https=librewolf.desktop;
 application/pdf=librewolf.desktop;
 x-scheme-handler/http=librewolf.desktop;
 x-scheme-handler/https=librewolf.desktop;
+x-scheme-handler/proton-inbox=Proton Mail.desktop
+x-scheme-handler/freetube=freetube.desktop
+x-scheme-handler/podman-desktop=Podman Desktop.desktop
