@@ -5,6 +5,7 @@ AddPackage dolphin-plugins # Extra Dolphin plugins
 AddPackage elisa # A simple music player aiming to provide a nice experience for its users
 AddPackage filelight # View disk usage information
 AddPackage kdeconnect # Adds communication between KDE and your smartphone
+AddPackage kdegraphics-thumbnailers # Thumbnailers for various graphics file formats
 AddPackage kdenlive # A non-linear video editor for Linux using the MLT video framework
 AddPackage kleopatra # Certificate Manager and Unified Crypto GUI
 AddPackage libplasma # Plasma library and runtime components
