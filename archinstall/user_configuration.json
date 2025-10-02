@@ -94,6 +94,7 @@
         "chromium",
         "clang",
         "cloc",
+        "compsize",
         "discord",
         "discover",
         "dolphin",
