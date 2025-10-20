@@ -11,6 +11,7 @@ AddPackage hyperfine # A command-line benchmarking tool
 AddPackage jq # Command-line JSON processor
 AddPackage just # A handy way to save and run project-specific commands
 AddPackage miniserve # Tool to serve files via HTTP
+AddPackage nano # Pico editor clone with enhancements
 AddPackage ripgrep # A search tool that combines the usability of ag with the raw speed of grep
 AddPackage sudo-rs # A memory-safe implementation of sudo and su
 AddPackage tealdeer # A fast tldr client in Rust
