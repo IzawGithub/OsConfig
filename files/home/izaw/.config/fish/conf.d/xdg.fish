@@ -4,6 +4,7 @@ set -Ux XDG_DATA_HOME "$HOME/.local/share"
 set -Ux XDG_STATE_HOME "$HOME/.local/state"
 
 set -Ux CARGO_HOME "$XDG_DATA_HOME/cargo"
+set -Ux DOCKER_HOST "unix://$XDG_RUNTIME_DIR/podman/podman.sock"
 set -Ux RUSTUP_HOME "$XDG_DATA_HOME/rustup"
 set -Ux GNUPGHOME "$XDG_DATA_HOME/gnupg"
 set -Ux GTK2_RC_FILES "$XDG_CONFIG_HOME/gtk-2.0/gtkrc":"$XDG_CONFIG_HOME/gtk-2.0/gtkrc.mine"
