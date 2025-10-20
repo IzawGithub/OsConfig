@@ -14,6 +14,11 @@ AddPackage partitionmanager # A KDE utility that allows you to manage disks, par
 AddPackage plasma-desktop # KDE Plasma Desktop
 AddPackage plasma-meta # Meta package to install KDE Plasma
 
+AddPackage --foreign catppuccin-cursors-mocha # Soothing pastel mouse cursors - Mocha
+AddPackage --foreign catppuccin-plasma-colorscheme-macchiato # Soothing pastel theme for KDE Plasma
+AddPackage --foreign catppuccin-sddm-theme-mocha # Soothing pastel theme for SDDM - Mocha
+AddPackage --foreign papirus-folders-catppuccin-git # Soothing pastel theme for Papirus Icon Theme folders
+
 CopyFile /etc/X11/xorg.conf.d/00-keyboard.conf
 
 CreateFile /etc/sddm.conf > /dev/null
