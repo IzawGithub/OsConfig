@@ -41,6 +41,7 @@ SetFileProperty /home/izaw/.config/VSCodium/User owner izaw
 SetFileProperty /home/izaw/.config/VSCodium group izaw
 SetFileProperty /home/izaw/.config/VSCodium mode 700
 SetFileProperty /home/izaw/.config/VSCodium owner izaw
+SetFileProperty /home/izaw/.config/zed/settings.json mode 600
 SetFileProperty /home/izaw/.local/share/codium/extensions group izaw
 SetFileProperty /home/izaw/.local/share/codium/extensions owner izaw
 SetFileProperty /home/izaw/.local/share/codium group izaw
