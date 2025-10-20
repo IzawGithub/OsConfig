@@ -2,7 +2,6 @@ AddPackage 7zip # File archiver for extremely high compression
 AddPackage asciinema # Record and share terminal sessions
 AddPackage bat # Cat clone with syntax highlighting and git integration
 AddPackage bottom # A graphical process/system monitor
-AddPackage cloc # Count lines of code
 AddPackage dust # A more intuitive version of du in rust
 AddPackage eza # A modern replacement for ls (community fork of exa)
 AddPackage fd # Simple, fast and user-friendly alternative to find
@@ -15,6 +14,7 @@ AddPackage nano # Pico editor clone with enhancements
 AddPackage ripgrep # A search tool that combines the usability of ag with the raw speed of grep
 AddPackage sudo-rs # A memory-safe implementation of sudo and su
 AddPackage tealdeer # A fast tldr client in Rust
+AddPackage tokei # A blazingly fast CLOC (Count Lines Of Code) program
 AddPackage uutils-coreutils # Cross-platform Rust rewrite of the GNU coreutils
 AddPackage xorg-xlsclients # List client applications running on a display
 AddPackage wget # Network utility to retrieve files from the web
