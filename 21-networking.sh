@@ -1,3 +1,4 @@
+AddPackage ca-certificates # Common CA certificates - default providers
 AddPackage networkmanager # Network connection manager and user applications
 
 CreateLink /etc/systemd/system/dbus-org.freedesktop.nm-dispatcher.service /usr/lib/systemd/system/NetworkManager-dispatcher.service

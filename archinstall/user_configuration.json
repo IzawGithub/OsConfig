@@ -90,6 +90,7 @@
         "bash",
         "bat",
         "bottom",
+        "ca-certificates",
         "chromium",
         "clang",
         "cloc",
